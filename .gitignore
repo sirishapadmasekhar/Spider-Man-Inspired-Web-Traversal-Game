@@ -1,0 +1,28 @@
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 📦 Virtual environment
+venv/
+env/
+.venv/
+
+# 🔨 Build files (PyInstaller)
+build/
+dist/
+*.spec
+
+# 🗂️ OS files
+.DS_Store
+Thumbs.db
+
+# 📝 Logs
+*.log
+
+# 🧩 IDE files
+.vscode/
+.idea/
+
+# 🔐 Environment variables
+.env
