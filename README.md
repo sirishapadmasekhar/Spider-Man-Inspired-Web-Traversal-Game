@@ -1,120 +1,70 @@
-# Web Swing Physics Simulation
+# Spider-Man Inspired Web Traversal Game
 
-A 2D physics-based web swinging simulation developed using Python and Pygame. The project implements real-time character movement, gravity, momentum, collision detection, and interactive web attachment mechanics within a dynamically rendered urban environment.
+A 2D game developed using Python and Pygame that implements target-based movement, gravity simulation, collision detection, and sprite rendering in a city environment.
 
-## Project Overview
+## Overview
 
-This project explores the implementation of game physics and event-driven programming through a web-swinging character simulation. Users can attach webs to building structures, navigate a cityscape, and experience movement influenced by velocity, gravity, and damping forces.
+This project simulates character movement through a cityscape using mouse-selected target points. The player can click on buildings to create a web connection, causing the character to move toward the selected location while being affected by gravity and velocity updates.
 
-The simulation was designed to demonstrate core concepts in game development, including object motion, collision handling, sprite manipulation, and interactive user controls.
+The environment includes buildings, animated vehicles, and a dynamically rendered night background.
 
-## Key Features
+## Features
 
-* Physics-based movement and navigation
-* Interactive web attachment system
-* Real-time gravity and momentum simulation
-* Character orientation based on movement direction
-* Building collision detection and landing mechanics
-* Procedurally generated building illumination
-* Animated urban traffic system
-* Dynamic night-time city environment
-* Mouse-driven user interaction
+* Mouse-based target selection
+* Web line rendering between player and target
+* Velocity-based character movement
+* Gravity simulation
+* Motion damping
+* Building collision detection
+* Character rotation based on movement direction
+* Animated vehicle movement
+* Procedurally generated building lights
+* Night-time city environment
 
-## Technologies Used
+## Technologies
 
 * Python
 * Pygame
-* Object-Oriented Programming Concepts
-* Mathematical Modeling
-* Event-Driven Programming
 
-## System Architecture
+## Controls
 
-The application consists of several core modules:
+* Left Click on a building: Set a web target point
 
-### Environment Engine
+## Implementation Details
 
-* City skyline generation
-* Background rendering
-* Building management
-* Vehicle animation
+The project uses:
 
-### Physics Engine
-
-* Velocity calculations
-* Gravity simulation
-* Motion damping
-* Boundary constraints
-
-### Interaction Engine
-
-* Mouse event processing
-* Web target selection
-* Collision handling
-* Character state updates
-
-### Rendering Engine
-
-* Sprite transformations
-* Dynamic object rendering
-* Character rotation
-* Real-time visual updates
+* Pygame event handling for user input
+* Velocity and acceleration updates for movement
+* Mathematical calculations for rotation and distance measurement
+* Collision checks for rooftop landing
+* Continuous rendering through a game loop
 
 ## Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/web-swing-physics-simulation.git
-cd web-swing-physics-simulation
-```
-
-Install dependencies:
-
 ```bash
 pip install pygame
-```
-
-Run the application:
-
-```bash
 python main.py
 ```
-
-## Learning Outcomes
-
-This project demonstrates practical experience with:
-
-* Game loop implementation
-* Physics simulation
-* Collision detection algorithms
-* Real-time rendering systems
-* Event handling and user interaction
-* Mathematical computations in game development
-* Software design for interactive applications
-
-## Future Enhancements
-
-* Rope tension and realistic swing mechanics
-* Advanced momentum conservation
-* Multiple levels and environments
-* Sound effects and background music
-* Character animations
-* Scoring and progression system
-* Mobile and web deployment support
 
 ## Repository Structure
 
 ```text
 .
 ├── main.py
-├── assets/
-│   └── spiderman.png
-├── screenshots/
-├── README.md
-└── requirements.txt
+├── spiderman.png
+└── README.md
 ```
 
-## Author
+## Learning Outcomes
 
-Developed as a personal project to explore game physics, interactive simulations, and software development using Python and Pygame.
+* Event-driven programming
+* Game loop implementation
+* Collision detection
+* Sprite transformation and rendering
+* Physics-inspired movement systems
+* Interactive application development using Pygame
+
+```
+```
+
