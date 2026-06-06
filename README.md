@@ -1,3 +1,4 @@
+<img width="972" height="676" alt="Screenshot 2026-06-06 at 08 27 50" src="https://github.com/user-attachments/assets/7aa22343-bd5d-4250-a6db-98f6f84cb9ad" />
 # Spider-Man Inspired Web Traversal Game
 
 A 2D game developed using Python and Pygame that implements target-based movement, gravity simulation, collision detection, and sprite rendering in a city environment.
@@ -27,6 +28,9 @@ The environment includes buildings, animated vehicles, and a dynamically rendere
 * Pygame
 
 ## Controls
+
+<img width="972" height="676" alt="Screenshot 2026-06-06 at 08 27 50" src="https://github.com/user-attachments/assets/ca6f0145-f955-498f-b758-f01721827f5f" />
+
 
 * Left Click on a building: Set a web target point
 
