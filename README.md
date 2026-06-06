@@ -64,16 +64,5 @@ python main.py
 ├── spiderman.png
 └── README.md
 ```
-
-## Learning Outcomes
-
-* Event-driven programming
-* Game loop implementation
-* Collision detection
-* Sprite transformation and rendering
-* Physics-inspired movement systems
-* Interactive application development using Pygame
-
-```
 ```
 
